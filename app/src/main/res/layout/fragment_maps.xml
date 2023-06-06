@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MapsFragment" >
+
+
+    <fragment
+
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.MapsFragment" />
+
+    <LinearLayout
+        android:id="@+id/layoutSearch"
+        android:layout_width="match_parent"
+        android:background="#F4F0F0"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_below="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@drawable/blue_border"
+            android:layout_margin="10dp"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Latitude"
+                    android:textSize="15dp"
+                    android:textColor="@color/material_dynamic_neutral40"
+                    />
+
+                <TextView
+                    android:id="@+id/Latitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textSize="15dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Longitude"
+                    android:textSize="15dp"
+                    android:textColor="@color/material_dynamic_neutral40"/>
+
+
+                <TextView
+                    android:id="@+id/Longitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F4F0F0">
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/searchEdt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableEnd="@drawable/ic_baseline_clear_24"
+                android:drawableStart="@drawable/ic_baseline_search_24"
+                android:drawableTint="@color/material_dynamic_primary80"
+                android:drawablePadding="10dp"
+                android:hint="Search Your Location"
+                android:imeOptions="actionSearch"
+                android:paddingStart="10dp"
+                android:singleLine="true"
+                android:background="@drawable/blue_border"
+                android:textSize="20sp"
+                />
+
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/_10mdp"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:layout_marginEnd="@dimen/_10mdp"
+            android:layout_marginBottom="@dimen/_10mdp"
+            android:backgroundTint="@color/material_dynamic_primary80"
+            android:text="Next"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

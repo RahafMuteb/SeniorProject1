@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#9FE5EEF8"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddLatlngFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:layout_margin="@dimen/_10mdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/black"
+
+                    android:text="Latitude : "
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/Latitude2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/_10mdp"
+
+                android:background="@drawable/edittext"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Longitude : "
+                    />
+
+
+                <TextView
+                    android:id="@+id/Longitude2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40mdp"
+
+                android:layout_margin="@dimen/_10mdp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:textColor="@color/black"
+                android:text="Address Line 2"
+                android:textSize="20dp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/AddressTwo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:text="Number of lockers"
+                android:textSize="20dp"/>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Size"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@android:color/white" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:text="Capacity"
+                android:textSize="20dp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/capacity"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@android:color/white" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:text="Discription"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/discription"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10mdp"
+                android:textSize="18dp"
+                android:backgroundTint="@color/babyblue"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

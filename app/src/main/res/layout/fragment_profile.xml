@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160mdp"
+        android:background="@drawable/shape">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_25mdp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/profile"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ahmed Mohammed "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18font_mdp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahmed@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginLeft="35dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginLeft="35dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginStart="@dimen/_16mdp"
+        android:layout_marginTop="@dimen/_16mdp"
+        android:layout_marginEnd="@dimen/_16mdp"
+        android:layout_marginBottom="@dimen/_16mdp"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/_5mdp"
+            android:background="@drawable/shape"
+            android:clickable="true"
+            android:elevation="@dimen/_2mdp"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/_5mdp"
+            app:cardElevation="@dimen/_2mdp"
+            app:checkedIconTint="@drawable/shape">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5mdp">
+
+                <ImageView
+                    android:id="@+id/icon2"
+                    android:layout_width="@dimen/_20mdp"
+                    android:layout_height="@dimen/_20mdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_file_upload_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@id/icon2"
+                    android:includeFontPadding="false"
+
+                    android:text="Terms and conditions"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/_5mdp"
+            android:clickable="true"
+            android:background="@drawable/shape"
+            app:checkedIconTint="@drawable/shape"
+            android:elevation="@dimen/_2mdp"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/_5mdp"
+            app:cardElevation="@dimen/_2mdp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5mdp">
+
+                <ImageView
+                    android:id="@+id/icon3"
+                    android:layout_width="@dimen/_20mdp"
+                    android:layout_height="@dimen/_20mdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_login_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/icon3"
+                    android:includeFontPadding="false"
+                    android:text="Log Out"
+                    android:textColor="@color/white"
+                    android:layout_margin="10dp"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+</RelativeLayout>

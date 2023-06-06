@@ -1,0 +1,64 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/drawable-v24/ic_baseline_delete_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/drawable-v24/ic_baseline_format_list_bulleted_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/drawable/blue_border.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/fragment_add_latlng.xml" value="0.24864130434782608" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/fragment_maps.xml" value="0.31456953642384106" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/fragment_notification.xml" value="0.2773333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/ic_baseline_delete_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment/app/src/main/res/layout/recycler_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/drawable-v24/menushape.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/drawable/ic_baseline_file_upload_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/activity_home.xml" value="0.1440329218106996" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/activity_main.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/fragment_add.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/fragment_add2.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/fragment_add_latlng.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/fragment_home.xml" value="0.1440329218106996" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/fragment_maps.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/fragment_profile.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/layout/recycler_item.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LockerManagment1/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_login_24.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_pageview_24.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_settings_24.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable-v24/shape.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/blue_border.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/edittext.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/home_24.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/ic_baseline_file_upload_24.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/profile.xml" value="0.1855" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_add_latlng.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_delete.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_notification2.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/recycler_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.2515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

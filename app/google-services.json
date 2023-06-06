@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "947753316373",
+    "firebase_url": "https://locker-data-realtime-default-rtdb.firebaseio.com",
+    "project_id": "locker-data-realtime",
+    "storage_bucket": "locker-data-realtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947753316373:android:0e0d58c57798b0154b5e1c",
+        "android_client_info": {
+          "package_name": "com.example.googlemap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkbWUjaIlasyYZ3ogI3q6z2OCUCYhNGVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947753316373:android:889d4bb5e4a9a0444b5e1c",
+        "android_client_info": {
+          "package_name": "com.example.locker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkbWUjaIlasyYZ3ogI3q6z2OCUCYhNGVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947753316373:android:42237e1117bd382f4b5e1c",
+        "android_client_info": {
+          "package_name": "com.example.managment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkbWUjaIlasyYZ3ogI3q6z2OCUCYhNGVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
